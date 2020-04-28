@@ -1,9 +1,10 @@
 .QuizQuestion {
-  display: flex;
+  display: block;
   justify-content: center;
   font-size: 2em;
   text-align: center;
 }
+
 .QuizEnd {
   display: flex;
   justify-content: center;
@@ -12,24 +13,31 @@
   font-size: 2em;
   padding-top: 20px;
 }
+
 .QuizEnd a {
   display: block;
-  padding-top: 20px;
+  padding-top: 1em;
+  padding-left: 1em;
 }
+
 ul {
+  list-style: none;
   padding: 0;
   margin: 0;
 }
+
 .buttons {
   display: flex;
   justify-content: center;
   text-align: center;
 }
+
 button {
   margin: 0.6em auto;
-  font-size: 1.5em;
+  font-size: 1em;
   display: block;
 }
+
 .error {
   color: red;
 }
